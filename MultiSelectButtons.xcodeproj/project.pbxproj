@@ -13,6 +13,9 @@
 		D7D54E801FE571ED00342701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D54E7E1FE571ED00342701 /* Main.storyboard */; };
 		D7D54E821FE571ED00342701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D54E811FE571ED00342701 /* Assets.xcassets */; };
 		D7D54E851FE571ED00342701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D54E831FE571ED00342701 /* LaunchScreen.storyboard */; };
+		D7D54E8D1FE5767200342701 /* MultiSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D54E8C1FE5767200342701 /* MultiSelectCell.swift */; };
+		D7D54E8F1FE5770300342701 /* MultiSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D54E8E1FE5770300342701 /* MultiSelectCell.xib */; };
+		D7D54E911FE57F4100342701 /* NewsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D54E901FE57F4100342701 /* NewsCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		D7D54E811FE571ED00342701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7D54E841FE571ED00342701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7D54E861FE571ED00342701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D54E8C1FE5767200342701 /* MultiSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectCell.swift; sourceTree = "<group>"; };
+		D7D54E8E1FE5770300342701 /* MultiSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiSelectCell.xib; sourceTree = "<group>"; };
+		D7D54E901FE57F4100342701 /* NewsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCategory.swift; sourceTree = "<group>"; };
 		F67DB601A7B30D223B203804 /* Pods-MultiSelectButtons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSelectButtons.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiSelectButtons/Pods-MultiSelectButtons.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,11 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				D7D54E7A1FE571ED00342701 /* AppDelegate.swift */,
-				D7D54E7C1FE571ED00342701 /* ViewController.swift */,
-				D7D54E7E1FE571ED00342701 /* Main.storyboard */,
 				D7D54E811FE571ED00342701 /* Assets.xcassets */,
-				D7D54E831FE571ED00342701 /* LaunchScreen.storyboard */,
 				D7D54E861FE571ED00342701 /* Info.plist */,
+				D7D54E831FE571ED00342701 /* LaunchScreen.storyboard */,
+				D7D54E7E1FE571ED00342701 /* Main.storyboard */,
+				D7D54E8C1FE5767200342701 /* MultiSelectCell.swift */,
+				D7D54E8E1FE5770300342701 /* MultiSelectCell.xib */,
+				D7D54E901FE57F4100342701 /* NewsCategory.swift */,
+				D7D54E7C1FE571ED00342701 /* ViewController.swift */,
 			);
 			path = MultiSelectButtons;
 			sourceTree = "<group>";
@@ -153,6 +162,7 @@
 				D7D54E851FE571ED00342701 /* LaunchScreen.storyboard in Resources */,
 				D7D54E821FE571ED00342701 /* Assets.xcassets in Resources */,
 				D7D54E801FE571ED00342701 /* Main.storyboard in Resources */,
+				D7D54E8F1FE5770300342701 /* MultiSelectCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D54E911FE57F4100342701 /* NewsCategory.swift in Sources */,
 				D7D54E7D1FE571ED00342701 /* ViewController.swift in Sources */,
+				D7D54E8D1FE5767200342701 /* MultiSelectCell.swift in Sources */,
 				D7D54E7B1FE571ED00342701 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
